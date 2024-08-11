@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'SF Distant Galaxy';
+  src: local('SF Distant Galaxy'), url(fonts/SF\ Distant\ Galaxy.ttf), format('ttf');
+}
+
+body {
+  background: #63a842;
+  margin: 0;
+  font-family: 'SF Distant Galaxy';
+  /* cursor: none; */
+  /* cursor: url('cursor.png') 12 12, auto; */
+
+}
+
+#heading {
+  position: fixed;
+  padding: 10px;
+}
+#heading img{
+  height: 250px;
+  /* filter: drop-shadow(0 0 2px rgb(2, 7, 7)); */
+}
+
+.border {
+  background: linear-gradient(90deg, rgb(81, 142, 211), 90%, rgb(0, 9, 9));
+  height: 2px;
+  width: 80vw;
+  margin-top: 4px;
+}
+
+h1 {
+  color: rgb(16, 68, 199);
+  text-shadow: 2px 2px #ff0000;  font-size: 4em;
+  margin: 0px;
+  font-weight: 100;
+  transition: 0.5s;
+}
+
+h1:hover{
+  color: rgb(254, 0, 0);
+  text-shadow: 2px 2px rgb(16, 68, 199);  font-size: 4em;
+}
+
+h2 {
+  color: #ff0000;
+  text-shadow: 2px 2px #3700ff;  font-size: 3em;
+  margin: 0px;
+  font-weight: 100;
+  transition: 0.5s;
+}
+
+h2:hover{
+  color: rgb(42, 0, 254);
+  text-shadow: 2px 2px rgb(199, 16, 16);  font-size: 3.1em;
+}
+
+#progress-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progress {
+  font-size: 3em;
+  color: white;
+}
